@@ -23,10 +23,10 @@ html{
     color:#79bad2;
     text-decoration:none;
 }
-.with-bg{
+/*.with-bg{
     background:url('../images/alt_no_download.jpg') center bottom no-repeat #fff;
     background-size:contain;
-}
+}*/
 .modern-inner a:hover{
     text-decoration:underline;
 }
@@ -188,6 +188,50 @@ html{
 }
 .welcome-block{
     overflow:hidden;
+}
+.modern-inner .bottom-fixed{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    border-top:1px solid #1ebbee;
+    overflow:hidden;
+    font-weight:600;
+}
+.modern-inner .bottom-fixed .second-section{
+    text-align:left;
+    background:url('../images/browsers_small.png') 10px center no-repeat #ffffe1;
+    background-size:auto 70%;
+    padding:7px 60px 10px 110px;
+}
+.modern-inner .bottom-fixed .first-section{
+    text-align:left;
+    border-bottom:2px solid #1ebbee;
+    padding:7px 10px 7px 35px;
+    display:block;
+    background:url('../images/emblem-notice_small.png') 10px center no-repeat #eaeff2;
+}
+.modern-inner .right.small-block{
+    padding:10px;
+    margin:45px;
+    max-width:240px;
+    height:auto;
+}
+.modern-inner .right.small-block input[type="submit"]{
+    margin-bottom:0 ;
+}
+.modern-inner .left.webcall-info{
+    padding-left:40px;
+}
+.modern-inner .webcall-info .fa{
+    text-align:left;
+    padding:0;
+}
+.modern-inner .webcall-header{
+    font-size:1.57143em;
+}
+.modern-inner .howto b{
+    font-weight:600;
 }
 /*--------------------------BUTTONS--------------------------*/
 .modern-inner .modern-connect, .modern-inner .modern-reconnect{
